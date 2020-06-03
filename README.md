@@ -6,3 +6,5 @@ Réalisation d'une carte interactive de la France avec la
 possibilté de cliqué sur une région.
 
 Elle affiche la région, son chef-lieu et une image de la ville
+
+Lien vers la carte: https://rawcdn.githack.com/kabomDev/regions-france/ebeca904133b7c3da82cb66f74ea7077d0a0192c/index.php
