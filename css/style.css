@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    height: 30px;
+    padding: 1.5em;
+    background-color: rgb(24, 24, 24);
+
+}
+
+#logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.map svg {
+    max-width: 500px;
+}
+
+.map {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+    padding: 3em;
+    text-align: center;
+}
+
+path {
+    fill: #048BB5;
+    cursor: pointer;
+}
+
+path:hover {
+    fill: #06B280;
+    transition: 0.3s;
+}
+
+.info-map {
+    width: 35%;
+    float: right;
+    margin: 100px auto;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.info-map img {
+    width: 300px;
+}
+
+.chef-lieu {
+    width: 200px;
+}
+
+/*==========================================================*/
+
+@media (max-width: 800px) {
+
+    main {
+        width: 100%;
+    }
+
+    .map svg {
+        max-width: 400px;
+    }
+
+    .map {
+        float: none;
+        text-align: center;
+    }
+
+    .info-map {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
